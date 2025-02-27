@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class BigCardComponent {
 
+  photoCover:string ="https://wallpapers.com/images/high/bts-2021-desktop-45ah2uxer05vrgiv.webp"
+  cardTitle:string ="BTS O maior da coreia"
+  cardDescription:string =""
+
+  constructor() { }
+
+  ngOnInit(): void{  
+  }
 }
